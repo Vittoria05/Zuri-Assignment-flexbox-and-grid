@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+     font-size: 15px;
+  }
+
+main {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column ;
+  }
+  .container{
+    display: flex;
+    height: 60%;
+  }
+  p{
+      color:hsla(0, 0%, 100%, 0.75) ;
+      font-family: 'Big Shoulders Display', cursive;
+      font-weight: 100;
+      font-size: 12px;
+  }
+  h1{
+      color:hsl(0, 0%, 95%) ;
+      font-weight: 700;
+      font-family: 'Lexend Deca', sans-serif;
+  }
+  
+  .first-side {
+    background-color:  hsl(31, 77%, 52%);
+    padding: 2em;
+    width: 50%;
+  }
+  .second-side {
+    background-color: hsl(184, 100%, 22%);
+    padding: 2em;
+    width: 50%;
+  }
+  .third-side {
+    background-color: hsl(179, 100%, 13%);
+    padding: 2em;
+    width: 50%;
+  }
+  button{
+    color:hsl(0, 55%, 22%) ;
+    size: 30px;
+    font-size: 15px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    
+  }
+.icon{
+    margin-bottom: 10%;
+}
+
+.sedans, .suv, .luxury{
+    margin-top: 40%;
+}
+@media only screen and (max-weight: 375px){
+    .container{
+        width: 50%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column ;
+        height: 60%;
+      }
+}
+a:link{
+    color: blue;
+    font-size: 50px; 
+}
